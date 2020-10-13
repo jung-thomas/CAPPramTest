@@ -31,7 +31,7 @@ modules:
  - name: db
  # ------------------------------------------------------------
    type: hdb
-   path: /db  
+   path: db  
    requires:
     # 'hana' and 'xsuaa' resources extracted from CAP configuration
     - name: bookshop
